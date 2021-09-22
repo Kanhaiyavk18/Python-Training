@@ -128,7 +128,7 @@ def put_collection(collection):
     #         return res
     #     # stock[collection] = req
     #     # res= make_response(jsonify({"msg
-onkar code 
+ 
 @app.route("/stock/<collection>", methods=["PUT"])
 def put_collection(collection):
     req = request.get_json()
